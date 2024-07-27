@@ -49,6 +49,7 @@ The following Python packages and their versions are required for this project:
 
 2. Run the TranSVPath model:
     ```bash
+    cd src
     python transvpath.py -f path/to/your.vcf -m path/to/saved_models/  -o ./result.txt
     ```
 
