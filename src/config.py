@@ -119,8 +119,8 @@ TARGET_LABELS = ["Pathogenic", "Benign"]
 LEARNING_RATE = 0.001
 WEIGHT_DECAY = 0.0001
 DROPOUT_RATE = 0.2
-BATCH_SIZE = 265
-NUM_EPOCHS = 10
+BATCH_SIZE = 256
+NUM_EPOCHS = 100
 
 NUM_TRANSFORMER_BLOCKS = 3  # Number of transformer blocks.
 NUM_HEADS = 4  # Number of attention heads.
